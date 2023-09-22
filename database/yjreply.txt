@@ -1,0 +1,26 @@
+drop table yjreply;
+
+create table yjreply(
+ userid number(4),
+ rcontent varchar2(40),
+ postid number(4),
+ rdate	date
+);
+
+commit;
+
+select * from yjreply;
+
+
+alter table yjreply add constraint yj_userid_fk foreign key (userid) references yjuser (userid) on delete cascade;
+
+commit;
+
+
+
+alter table yjreply add constraint yj_postid_fk foreign key (postid) references yjpost (postid) on delete cascade ;
+
+commit;
+
+
+

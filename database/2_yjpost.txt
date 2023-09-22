@@ -1,0 +1,25 @@
+drop sequence  yjpostid_seq;
+drop table yjpost;
+
+create sequence  yjpostid_seq;
+create table yjpost(
+	userid number(4), 
+	postid number(4),
+	storename varchar2(50),
+	posttext varchar2(200), 
+	postgrade number(4), 
+	postimg varchar2(30),
+	postdate date
+);
+
+alter table yjpost drop primary key;
+
+alter table  yjpost drop constraint yjuser_userid_fk;
+
+
+alter table yjpost add primary key (postid); 
+
+alter table yjpost add constraint yjuser_userid_fk 
+foreign key(userid) references yjuser(userid) on delete cascade;
+
+commit;

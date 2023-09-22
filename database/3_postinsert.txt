@@ -1,0 +1,27 @@
+insert into yjpost values(1100, yjpostid_seq.nextval, '카페아벨롭', '친절해요', 4, 'avelop.jpeg', sysdate );
+insert into yjpost values(2200, yjpostid_seq.nextval, '브런치가', '음식이 맛있어요', 4, 'brunchga.png', sysdate );
+insert into yjpost values(3300, yjpostid_seq.nextval, '이미커피', '커피와 디저트 맛있어요~ ', 3, 'imi.jpeg', sysdate );
+insert into yjpost values(4400, yjpostid_seq.nextval, '카와카츠', '서울3대 돈카츠~겉바속촉의 정석', 4, 'kawa.jpeg', sysdate );
+insert into yjpost values(5500, yjpostid_seq.nextval, '고요베이크샵 ', '디저트가 맛있어요', 5, 'koyo.jpeg', sysdate );
+
+
+
+insert into yjpost values(1100, yjpostid_seq.nextval, '남북통일', '친절해요', 4, '남북통일.jpg', sysdate );
+insert into yjpost values(2200, yjpostid_seq.nextval, '미도인 홍대', '음식이 맛있어요', 4, '미도인.jpg', sysdate );
+insert into yjpost values(3300, yjpostid_seq.nextval, '이모네', '양이 많아요', 3, '이모네.jpg', sysdate );
+insert into yjpost values(4400, yjpostid_seq.nextval, '자성당', '재료가 신선해요', 4, '자성당.jpg', sysdate );
+insert into yjpost values(5500, yjpostid_seq.nextval, '춘풍국밥', '음식이 맛있어요', 5, '춘풍국밥.jpg', sysdate );
+insert into yjpost values(4400, yjpostid_seq.nextval, '칼국수수제비가', '친절해요', 4, '칼국수수제비가.jpg', sysdate );
+insert into yjpost values(5500, yjpostid_seq.nextval, '카타코토', '양이 많아요', 5, '키타코토카페.jpg', sysdate );
+
+
+
+insert into yjpost values(1100, yjpostid_seq.nextval, '나성타코', '낫배드 사이즈에 대한 안내가 친절해요',4,'나성타코.jpg', sysdate );
+insert into yjpost values(2200, yjpostid_seq.nextval, '노브랜드버거 홍대점', '가성비짱',4,'노브랜드.jpg', sysdate );
+insert into yjpost values(3300, yjpostid_seq.nextval, '두리반', '칼국수가 맛있어요',4,'두리반.jpg', sysdate );
+insert into yjpost values(5500, yjpostid_seq.nextval, '리밀앤밀리', '휘낭시에 존맛',5,'리밀앤밀리.jpg', sysdate );
+insert into yjpost values(1100, yjpostid_seq.nextval, '맘스터치 홍대입구역점', '파파이스보다 훨씬 남',4,'맘스터치.jpg', sysdate );
+insert into yjpost values(2200, yjpostid_seq.nextval, '멘야준', '엄청 깔끔한 국물맛',5,'멘야준.jpg', sysdate );
+insert into yjpost values(3300, yjpostid_seq.nextval, '서교밥집', '뭐먹을지 고민될땐 그냥 여기 가세요',4,'서교밥집.jpg', sysdate );
+insert into yjpost values(4400, yjpostid_seq.nextval, '어메이징농카이', '기대하고갔으나 별로..',3,'어메이징농카이.jpg', sysdate );
+insert into yjpost values(5500, yjpostid_seq.nextval, '틈새라면 홍대놀이터점', '일단 무조건 기본 3단계! 별로 안매워요 주먹밥은 맛있어요',4,'틈새라면.jpg', sysdate );

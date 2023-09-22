@@ -1,0 +1,37 @@
+drop table yjstore;
+drop sequence yjstoreseq;
+
+create sequence yjstoreseq start with 1000 increment by 1 nocycle ;
+
+create table yjstore(
+storeid		number(4),
+storename 	varchar2(50),
+lati		varchar2(30),
+longi		varchar2(30)
+);
+
+insert into yjstore values(yjstoreseq.nextval,'카페아벨롭', '37.5544599900023','126.918842198641');
+insert into yjstore values(yjstoreseq.nextval,'브런치가', '37.5580945810653','126.921459443831');
+insert into yjstore values(yjstoreseq.nextval,'이미커피', '37.55747500027613','126.92191959031598');
+insert into yjstore values(yjstoreseq.nextval,'카와카츠', '37.554741054656375','126.916195926392');
+insert into yjstore values(yjstoreseq.nextval,'고요베이크샵', '37.5550912814525','126.918395613234');
+
+insert into yjstore values(yjstoreseq.nextval,'남북통일', '37.553796239926776','126.91795113227077');
+insert into yjstore values(yjstoreseq.nextval,'미도인 홍대', '37.5517332139014','126.920972708499');
+insert into yjstore values(yjstoreseq.nextval,'이모네', '37.5530588846796','126.920084058119');
+insert into yjstore values(yjstoreseq.nextval,'자성당', '37.5529236200336','126.917300232534');
+insert into yjstore values(yjstoreseq.nextval,'춘풍국밥', '37.555574270435464','126.9184743080236');
+insert into yjstore values(yjstoreseq.nextval,'칼국수수제비가', '37.5526530635188','126.916933863601');
+insert into yjstore values(yjstoreseq.nextval,'카타코토', '37.5551337611148','126.918587960766');
+
+insert into yjstore values(yjstoreseq.nextval,'나성타코', '37.5515531868362'  ,'126.921230920352');
+insert into yjstore values(yjstoreseq.nextval,'노브랜드버거 홍대점', '37.5545152970873'  ,'126.92203019168099');
+insert into yjstore values(yjstoreseq.nextval,'두리반', '37.5531743194397'  ,'126.920242372708');
+insert into yjstore values(yjstoreseq.nextval,'리밀앤밀리', '37.554582441502795'  ,'126.91871984006559');
+insert into yjstore values(yjstoreseq.nextval,'맘스터치 홍대입구역점', '37.5550604117956'  ,'126.920694185343');
+insert into yjstore values(yjstoreseq.nextval,'멘야준', '37.5548943605055'  ,'126.916388147952');
+insert into yjstore values(yjstoreseq.nextval,'서교밥집', '37.5545051459148'  ,'126.91641121718');
+insert into yjstore values(yjstoreseq.nextval,'어메이징농카이', '37.55532928659496'  ,'126.91991866431744');
+insert into yjstore values(yjstoreseq.nextval,'틈새라면 홍대놀이터점', '37.55221362541388'  ,'126.9226040901678');
+
+commit;

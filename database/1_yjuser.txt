@@ -1,0 +1,23 @@
+drop  table yjuser;
+
+create table yjuser (
+    userid number(4) primary key,
+    userpwd number(4),
+    username varchar2(30),
+    usernick varchar2(30),
+    userprofile varchar2(50)
+ );
+
+commit;
+
+insert into   yjuser  values  ( 1100, 1001, 'choi', 'cc', 'user1.jpeg');
+insert into   yjuser  values  ( 2200, 2002, 'jang', 'jj', 'user2.jpeg');
+insert into   yjuser  values  ( 3300, 3003, 'han', 'hh', 'user3.jpeg');
+insert into   yjuser  values  ( 4400, 4004, 'jin', 'jj', 'user4.jpg');
+insert into   yjuser  values  ( 5500, 5005, 'yoon', 'yy', 'user5.jpg');
+insert into   yjuser  values  ( 6600, 6006, 'lee', 'll', 'user6.jpeg');
+
+select * from yjuser;
+
+commit; 
+    

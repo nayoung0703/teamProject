@@ -1,0 +1,21 @@
+drop table yjpostlike;
+
+create table yjpostlike(
+ userid number(4),
+ postid number(4)
+);
+
+alter table  yjpostlike drop constraint yjpost_postid_fk;
+
+alter table yjpostlike add constraint yjpost_postid_fk 
+foreign key(postid) references yjpost(postid) on delete cascade;
+
+alter table yjpostlike add constraint yjpost_userid_fk 
+foreign key(userid) references yjuser(userid) on delete cascade;
+
+
+select * from yjpostlike;
+
+commit;
+
+
